@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--Week 1 assignment, html tags
+Assignment: Launching your UAT Space Program HTML Document Tags
+Anika Franklin
+Anifrank@uat.edu-->
+<html> 
+
+	<head>
+	<!--connects javascript code-->
+	<script src="code.js"></script>
+	<!--connects css code-->
+	<link href="style.css" rel="stylesheet" type="text/css"/>
+	<!--This is the title-->
+		<title>
+			Anika Franklin's UATSpace Page
+		</title>
+	</head>
+
+	<body>
+	<!--Table to hold UAT space logo and header text-->
+	<table>
+		<tr>
+		<!--UAT space logo-->
+			<td> <img src="UATspaceLogo-2.jpg"> </td>
+			<td> <h1 id="uatSpace"> UAT Space Program </h1> </td>
+		</tr>
+	</table>
+		<!--countdown timer title-->
+		<h2 id="countDown">Countdown Timer</h2>
+		<!--Status of current countdown timer-->
+		<div id="countdownStatus">Timer Status</div>
+		<br>
+		<!--Start button-->
+		<button onclick="blastoffTimerV3();" class="button" >Start</button>
+		<!--Stop button-->
+		<button class="button">Stop</button>
+		<br>
+		<!--
+		For our craps game on the html side, we need: 
+			1. button to play craps
+	   	2. craps status line
+			3. header saying craps played here
+			
+			the story of our craps game......
+	Story begins with 2 astronauts. Astronaut 1 being Billy and 	astronaut 2 being Eddie. They couldnt agree on who should be the one to 	travel into space. Both of them wanted to but neither was willing to 	let the other one go. Running out of time, a collegue Steve suggested 	that they settle it with a game of craps. "Best 2 out 3", steve said  	winner gets to go. Long story short Billy won.
+										The End!
+						*Hope you enjoy my short story :)*
+	    -->
+		<h2 id="craps">Let's Play Craps!</h2>
+		<!--just a title-->
+		<div id="crapsStatus">Craps Status</div><br>
+		<!--play craps button-->
+		<button onclick="playCraps();">Play Craps</button>
+	</body>
+	
+</html>
